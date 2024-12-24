@@ -74,6 +74,30 @@ main {
     text-align: center;
 }
 
+/* General hyperlink styles */
+a {
+    color: #fff; /* White color for text links */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Download button styles */
+.version-list li a {
+    text-decoration: none;
+    background-color: #ff0000; /* Red background for buttons */
+    color: #fff; /* White text for buttons */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.version-list li a:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
 footer {
     background-color: #111;
     text-align: center;
